@@ -15,11 +15,3 @@ Python ve Pygame ile geliştirilmiş tek oyunculu Breakout (tuğla kırma) oyunu
 ## Kontroller
 - Sol/Sağ ok veya A/D: Çubuğu hareket ettir
 - R: Yeniden başlat
-
-## Kullanılan kavramlar
-- Game loop (event kontrolü → güncelleme → çizim → framerate sınırlama)
-- Pygame Rect ve collision detection (`colliderect`)
-- Klavye girdisi yönetimi (`pygame.key.get_pressed()`, `KEYDOWN` olayları)
-- Liste yönetimi (tuğlaların dinamik olarak oluşturulması/kaldırılması)
-- Koşullu durum yönetimi (oyun bitti/kazandı/kaybetti mantığı)
-- Font render etme ve metin konumlandırma
